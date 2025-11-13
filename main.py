@@ -1,13 +1,12 @@
 import os
 import requests
 import time
-from telegram import Bot
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# Configuration
+# Configuration depuis les Secrets
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 WHATSAPP_PHONE = os.getenv('WHATSAPP_PHONE')
 
